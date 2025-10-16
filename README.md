@@ -1,0 +1,2 @@
+# CliniCore
+SE project
