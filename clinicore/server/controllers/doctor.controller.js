@@ -1,5 +1,7 @@
 import DoctorAvailability from '../models/DoctorAvailability.model.js';
-import utcToZonedTime from 'date-fns-tz/utcToZonedTime.js';
+import * as tz from 'date-fns-tz';
+const { utcToZonedTime, zonedTimeToUtc } = tz;
+
 import { addDays, isBefore } from 'date-fns';
 
 const IST = 'Asia/Kolkata';
